@@ -1,0 +1,25 @@
+.card{
+    // display: flex;
+    // flex-direction: column;
+    border-radius: 8px;
+    .image{
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px 8px 0px 0px;
+        min-height: calc(150px * 1.5);
+        height: auto;
+        background: #dbdbdb;
+        overflow: hidden;
+        img{
+            width: 10rem;
+            object-fit: fill;
+        }
+    }
+    .description{
+        min-height: 1rem;
+        height: 5rem;
+        overflow: hidden;
+        background-color: #dbdbdb;
+        border-radius: 0px 0px 8px 8px;
+
+    }
+}
